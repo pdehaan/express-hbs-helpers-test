@@ -1,0 +1,27 @@
+{
+  "name": "express-hbs-helpers-test",
+  "description": "Testing global variables with Handlebars helpers.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/express-hbs-helpers-test/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/express-hbs-helpers-test#readme",
+  "keywords": ["express", "handlebars", "helpers"],
+  "license": "MPL-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/express-hbs-helpers-test.git"
+  },
+  "scripts": {
+    "format": "npx prettier *.js --write",
+    "start": "PORT=3000 node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
