@@ -27,7 +27,7 @@ const hbs = exphbs.create({
 
 First, we're adding some global variables into the `helpers` object.
 
-Now we can use the `LOGO_ROOT` and `HIBP_ROOT` constants in our templates, as seen in <views/home.hbs>:
+Now we can use the `LOGO_ROOT` and `HIBP_ROOT` constants in our templates, as seen in [views/home.hbs](views/home.hbs):
 
 ```hbs
 {{!< default }}
@@ -43,7 +43,7 @@ Now we can use the `LOGO_ROOT` and `HIBP_ROOT` constants in our templates, as se
 {{> snippet }}
 ```
 
-You can use the global `{{ LOGO_ROOT }}` in our templates, or in any partials, as seen in <views/partials/snippet.hbs>:
+You can use the global `{{ LOGO_ROOT }}` in our templates, or in any partials, as seen in [views/partials/snippet.hbs](views/partials/snippet.hbs):
 
 ```hbs
 <pre>{{ HIBP_ROOT }}</pre>
